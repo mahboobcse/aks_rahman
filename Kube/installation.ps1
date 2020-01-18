@@ -124,8 +124,8 @@ helm install azure-samples/aks-helloworld --namespace ingress-basic --generate-n
 #INSTALL 2ND SERVICE
 helm install azure-samples/aks-helloworld --namespace ingress-basic  --generate-name --set title="AKS Ingress Demo" --set serviceName="ingress-demo"
 
-#ADD INGRESS - We will run 150 no line
-##kubectl apply -f .\cluster-ingress.yaml
+#ADD INGRESS
+kubectl apply -f .\cluster-ingress.yaml
 
 #INSTALL CERTIFICATE: https://docs.cert-manager.io/en/latest/getting-started/install/kubernetes.html
 # CREATE A NAMESPACE TO RUN CERT-MANAGER IN
@@ -148,3 +148,14 @@ kubectl get secret -n ingress-basic
 
 #UPDATE INGRESS TO USE CERTIFICATE
 kubectl apply -f .\cluster-ingress.yaml
+
+
+#########################################
+#########################################
+#CLEAN UP
+#########################################
+#########################################
+kubectl delete namespace ingress-basic
+kubectl delete namespace cert-manager
+#DELETE THE CLUSTER
+az aks delete --name <name> --resource-group <group>
