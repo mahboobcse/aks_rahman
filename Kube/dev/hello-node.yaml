@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
       - name: aks-hellonode
-        image: rahman26.azurecr.io/aks-helloworldnode:#{Release.Artifacts.aks.BuildNumber}#
+        image: rahman.azurecr.io/aks-helloworldnode:#{Release.Artifacts.aks.BuildNumber}#
         env:
         - name: ASPNETCORE_ENVIRONMENT
           value: "Development"        
@@ -78,7 +78,7 @@ spec:
     #- app-staging.informatiq.no
 #    secretName: app-staging-informatiq-no-cert-prod
   rules:
-  - host: rahman26.eastus.cloudapp.azure.com
+  - host: rahman.eastus.cloudapp.azure.com
     http:
       paths:           
       - path: /api/node
