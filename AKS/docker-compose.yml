@@ -23,4 +23,4 @@ services:
     image: ${DOCKER_REGISTRY}/aks-hellodhakaweb:${VERSION:-dev}
     build:
       context: .
-      dockerfile: Services/HelloDhakaWeb/Dockerfile  
+      dockerfile: Services/HelloDhakaWeb/Dockerfile
