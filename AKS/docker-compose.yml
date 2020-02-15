@@ -19,3 +19,8 @@ services:
     build:
       context: .
       dockerfile: Services/HelloNode/Dockerfile
+  hellodhakaweb:
+    image: ${DOCKER_REGISTRY}/aks-hellodhakaweb:${VERSION:-dev}
+    build:
+      context: .
+      dockerfile: Services/HelloDhakaWeb/Dockerfile  

@@ -1,0 +1,17 @@
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\appsettings.json
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\HelloDhakaWeb.exe
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\staticwebassets\HelloDhakaWeb.StaticWebAssets.Manifest.cache
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\staticwebassets\HelloDhakaWeb.StaticWebAssets.xml
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\HelloDhakaWeb.AssemblyInfoInputs.cache
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\HelloDhakaWeb.AssemblyInfo.cs
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\HelloDhakaWeb.RazorTargetAssemblyInfo.cache
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\HelloDhakaWeb.deps.json
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\HelloDhakaWeb.runtimeconfig.json
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\HelloDhakaWeb.runtimeconfig.dev.json
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\HelloDhakaWeb.dll
+D:\K8\Git\AKS\Services\HelloDhakaWeb\bin\Debug\netcoreapp3.1\HelloDhakaWeb.pdb
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\HelloDhakaWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\HelloDhakaWeb.dll
+D:\K8\Git\AKS\Services\HelloDhakaWeb\obj\Debug\netcoreapp3.1\HelloDhakaWeb.pdb

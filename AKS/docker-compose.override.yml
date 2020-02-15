@@ -19,3 +19,9 @@ services:
       - PORT=80
     ports:
       - "30002:80"
+  hellodhakaweb:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+    ports:
+      - "30003:80"	  
